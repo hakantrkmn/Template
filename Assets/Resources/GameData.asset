@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb7209e3d961de449c14847baf3024b, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  fakeLevelIndex: 1
+  realLevelIndex: 0
+  levelLoopValue: 1
+  finiteTutorial: 0
+  tutorialLevelCount: 3
+  totalMoneyAmount: 0
+  upgradeValues:
+  - currentUpgradeLevel: 0
+    totalUpgradeGainValue: 0
+    isMaximized: 0
+  - currentUpgradeLevel: 0
+    totalUpgradeGainValue: 0
+    isMaximized: 0
+  - currentUpgradeLevel: 0
+    totalUpgradeGainValue: 0
+    isMaximized: 0
