@@ -1,6 +1,6 @@
-# Template
+# Unity Game Template
  unity oyun için kullandığım template
  
  içindeki assetler
- -Odin
- -Dotween
+ - Odin
+ - Dotween
