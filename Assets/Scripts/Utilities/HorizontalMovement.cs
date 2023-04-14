@@ -16,24 +16,7 @@ public class HorizontalMovement : MonoBehaviour
 
 
 
-    //---------------------------------------------------------------------------------
-    private void OnEnable()
-    {
-        EventManager.StartLevel += SwitchCanControl;
-        EventManager.SwitchPlayerCanControl += SwitchCanControl;
-        EventManager.SwitchPlayerCanSway += SwitchCanSway;
-        EventManager.SetWin += SwitchCanControl;
-    }
-    private void OnDisable()
-    {
-        EventManager.StartLevel -= SwitchCanControl;
-        EventManager.SwitchPlayerCanControl -= SwitchCanControl;
-        EventManager.SwitchPlayerCanSway -= SwitchCanSway;
-        EventManager.SetWin -= SwitchCanControl;
-    }
-
-
-    //---------------------------------------------------------------------------------
+  
     private void Start()
     {
         _xGoal = transform.position.x;

@@ -17,16 +17,7 @@ public class GameData : ScriptableObject
 
 
     [BoxGroup("Total Money")] public int totalMoneyAmount;
-
-
-    private void OnEnable()
-    {
-        EventManager.ResetProgressData += ResetData;
-    }
-    private void OnDisable()
-    {
-        EventManager.ResetProgressData -= ResetData;
-    }
+    
 
 
     //---------------------------------------------------------------------------------

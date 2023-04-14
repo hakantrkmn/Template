@@ -8,24 +8,7 @@ public class ForwardMovement : MonoBehaviour
     private bool isMoveStraight = true;
 
     [SerializeField] private bool canControl;
-
-
-    //---------------------------------------------------------------------------------
-    private void OnEnable()
-    {
-        EventManager.StartLevel += SwitchCanControl;
-        EventManager.SwitchPlayerCanControl += SwitchCanControl;
-        EventManager.SetWin += SwitchCanControl;
-    }
-    private void OnDisable()
-    {
-        EventManager.StartLevel -= SwitchCanControl;
-        EventManager.SwitchPlayerCanControl -= SwitchCanControl;
-        EventManager.SetWin -= SwitchCanControl;
-    }
-
-
-    //---------------------------------------------------------------------------------
+    
     void Update()
     {
         if (!canControl)
